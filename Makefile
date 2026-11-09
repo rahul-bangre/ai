@@ -1,7 +1,7 @@
 BUILD_DIR := build
 BIN := $(BUILD_DIR)/qwen_infer
 WEIGHTS := weights/qwen2.5-0.5b-instruct.f32.bin
-SRCS := $(wildcard src/*.cpp include/qwen/*.h)
+SRCS := $(wildcard src/*.cpp include/*.h include/qwen/*.h)
 
 ifeq ($(wildcard .venv/bin/python),)
 PYTHON ?= python3

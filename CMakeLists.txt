@@ -7,7 +7,9 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 add_executable(qwen_infer
     src/tensor.cpp
+    src/ops.cpp
     src/weights.cpp
+    src/model.cpp
     src/main.cpp
 )
 

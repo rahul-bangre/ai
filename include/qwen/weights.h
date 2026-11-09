@@ -1,7 +1,7 @@
 #pragma once
 
 #include "qwen/config.h"
-#include "qwen/tensor.h"
+#include "tensor.h"
 
 #include <string>
 #include <vector>

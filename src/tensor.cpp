@@ -1,4 +1,4 @@
-#include "qwen/tensor.h"
+#include "tensor.h"
 
 #include <stdexcept>
 
